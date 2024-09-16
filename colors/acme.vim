@@ -5,6 +5,7 @@ highlight clear
 
 highlight! Normal guibg=#feffd6 guifg=#000000 ctermbg=230 ctermfg=232
 highlight! link String Normal
+highlight! link Function Normal
 highlight! ColorColumn guibg=#ffd7d7
 highlight! NonText guibg=bg guifg=#feffd6 ctermbg=bg ctermfg=230
 highlight! StatusLine guibg=#aeeeee guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
