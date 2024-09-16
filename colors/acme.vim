@@ -4,11 +4,14 @@ highlight clear
 " 232 (#080808), which is close enough.
 
 highlight! Normal guibg=#feffd6 guifg=#000000 ctermbg=230 ctermfg=232
+highlight! link String Normal
+highlight! ColorColumn guibg=#ffd7d7
 highlight! NonText guibg=bg guifg=#feffd6 ctermbg=bg ctermfg=230
 highlight! StatusLine guibg=#aeeeee guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
 highlight! StatusLineNC guibg=#aeeeee guifg=#000000 gui=NONE ctermbg=194 ctermfg=232 cterm=NONE
 highlight! WildMenu guibg=#000000 guifg=#eaffff gui=NONE ctermbg=black ctermfg=159 cterm=NONE
 highlight! VertSplit guibg=#aeeeee guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
+highlight! WinSeparator guibg=#aeeeee guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
 highlight! Folded guibg=#cccc7c guifg=fg gui=italic ctermbg=187 ctermfg=fg cterm=italic
 highlight! FoldColumn guibg=#fcfcce guifg=fg ctermbg=229 ctermfg=fg
 highlight! Conceal guibg=bg guifg=fg gui=NONE ctermbg=bg ctermfg=fg cterm=NONE
@@ -32,8 +35,8 @@ highlight! link Title Directory
 highlight! link MoreMsg Comment
 highlight! link Question Comment
 
-highlight! CurSearch guibg=#aeeeee ctermbg=lightblue
 highlight! Search guibg=lightred ctermbg=lightred
+highlight! CurSearch guibg=#aeeeee guifg=#080808 ctermbg=lightblue ctermfg=232
 
 highlight! SpellBad guifg=brown gui=underline,bold ctermfg=red cterm=underline,bold
 
